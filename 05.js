@@ -29,7 +29,7 @@ function pluck(array, propiedad) {
 var productos = [{ name: 'TV LCD', price: 100}, { name: 'Computadora', price: 500 }];
 //productos.pluck(productos, 'name');
 
-console.log(pluck(productos, 'name'));
+console.log(pluck(productos, 'price'));
 // No modifiques nada debajo de esta linea //
 
 module.exports = pluck
